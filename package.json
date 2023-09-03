@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "tsc -v"
+    "test": "tsc -v",
+    "build": "tsc"
   },
   "author": "",
   "license": "ISC",

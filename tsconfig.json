@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "removeComments": true,
+    "outFile": "./ts-build.js"
+  },
+  "include": ["./src/**/*"]
+}
