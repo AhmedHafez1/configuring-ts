@@ -1,7 +1,9 @@
 {
   "compilerOptions": {
-    "removeComments": true,
-    "outFile": "./ts-build.js"
+    "removeComments": true
   },
-  "include": ["./src/**/*"]
+  "include": ["./src/**/*"],
+  "watchOptions": {
+    "excludeDirectories": ["**/node_modules"]
+  }
 }
